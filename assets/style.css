@@ -1,0 +1,46 @@
+/* TODO: refresh knowledge on Flexbox CSSx  */
+/* Remember that #id can also be used here, not just classes, Element names can also be used. */
+.body {
+    background-color: beige;
+    border: solid black 5px;
+    font-family: 'Courier New', Courier, monospace;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#name {
+    font-size: 400%;   
+}
+.biohead{  
+    position: relative;
+    left: 35%;
+    width: 750px;
+    justify-content: center;
+    background-color: cyan;
+    border: 3px solid;
+    padding: 5px;
+}
+
+.works {
+  position: relative;
+  text-align: center;
+  left: 15%;
+  background-color: orange;
+  border: 2px solid;
+  padding: 1px;
+  width: 500px;
+}
+.items {
+    color: honeydew;
+    background-color: orange;
+    position: absolute;
+    left: 15%;
+    width: 500px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 6px;
+}
+.item1 {
+    color: lightcoral;
+}
+.example1 {
+    justify-content: center;
+}   
